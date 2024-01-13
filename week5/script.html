@@ -33,7 +33,13 @@
 <button type="reset" onclick="reset()">Reset</button>
 <button type="check" onclick="checkNum()">"Below 10?"</button>
 
-<p id="checkif">Null</p>
+<p id="checkif">None</p>
+
+<p> Use counter above Red  1 Orange  2 Yellow  3.</p>
+
+<p id="ArrayTest"></p>
+
+<button id ="many" onclick ="ReadArray()"> ArrNum </button>
 
 <h2> Example.com </h2>
 
@@ -64,6 +70,13 @@ function checkNum(){
 
 x = document.getElementById("Number").innerHTML = Number;
 document.getElementById("checkif").innerHTML = Boolean(x < 10);
+}
+
+function ReadArray(){
+let Colors = ['black','red','orange','yellow'];
+
+x = Number;
+document.getElementById("ArrayTest").innerHTML = Colors[x];
 }
 
 </script>
