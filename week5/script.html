@@ -13,6 +13,8 @@
 <h1>Pongos, Ichiro Emmanuel</h1>
 
 </head>
+<body>
+
 
 <h2>Normal Button</h2>
 
@@ -20,14 +22,43 @@
 
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Made you click"'>Click Me!</button>
 
+<button type="button" onclick='document.getElementById("demo").innerHTML = "can change HTML content."')>Reset!</button>
 
-<body>
+
+<h3>Counter</h3>
+<p id="Number">0</p>
+
+<button type="add" onclick="minusone()">-1</button>
+<button type="minus" onclick="plusone()">+1</button>
+<button type="reset" onclick="reset()">Reset</button>
 
 <h2> Example.com </h2>
 
 <a href="index.html">Back</a></li>
-
-
 </body>
 
+
+<script>
+var Number = 0;
+function plusone(){
+
+Number = Number + 1;
+document.getElementById("Number").innerHTML = Number;
+}
+function minusone(){
+
+Number = Number - 1;
+document.getElementById("Number").innerHTML = Number;
+}
+
+function reset(){
+
+Number = 0;
+document.getElementById("Number").innerHTML = Number;
+}
+
+
+
+
+</script>
 </html>
