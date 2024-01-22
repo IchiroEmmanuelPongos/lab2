@@ -39,6 +39,9 @@ color: black;
 margin-right: 20px;
 border: 2px solid grey;
 background-color: grey;
+float: left;
+
+
 
 }
 
@@ -79,7 +82,10 @@ font-size: 15px;
 <li id="namebox">
 <p>Age: <input id="age" size="2px"></p>
 <p>Gender: <input id="gender"></p>
-<button id="tableinfo" onClick="GetInfo()">Submit</button>
+
+<!--Button Delay Aese TimeOut-->
+
+<button id="tableinfo" onClick="setTimeout(GetInfo,3000);";>Submit</button>
 </li >
 <ul>
 </div>
@@ -102,6 +108,8 @@ font-size: 15px;
 <p><a href="index.html">Back to Home</a></p>
 
 <script>
+
+// functions 18
 function add(){
 
 let n1 = Number(document.getElementById("nom").value);
@@ -154,6 +162,7 @@ document.getElementById("dem").value = "";
 }
 
 function GetInfo(){
+// Objects 17
 let person = {
 fname:document.getElementById("FName").value,
 lname:document.getElementById("LName").value,
@@ -161,6 +170,7 @@ mname:document.getElementById("MName").value,
 age:document.getElementById("age").value,
 gender: document.getElementById("gender").value
 }
+// Popup Alert Browser BOM
 alert("Name: "+ person.lname + ", " + person.fname + " " + person.mname +"\nAge: "
 + person.age + "\nGender: " + person.gender);
 };
