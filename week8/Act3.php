@@ -51,7 +51,7 @@ function addTillTen(){
 }
 addTillTen();
 ?> 
-
+<p><a href="index.php">Back to Home</a></p>
 
 </body>
 

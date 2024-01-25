@@ -93,6 +93,7 @@ background-color: green;
   <li class="inactive" id="lll"><a href="resource.php">Resources</a></li>
   <li class="inactive" id="lll"><a href="Act1.php">Script1Act</a></li>
   <li class="inactive" id="lll"><a href="Act2.php">Script2Act</a></li>
+  <li class="inactive" id="lll"><a href="Act3.php">Script3Act</a></li>
 </ul>
 
 <div>
