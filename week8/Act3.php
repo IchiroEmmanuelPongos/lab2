@@ -34,9 +34,23 @@ echo "<h3>" . $testtitle . "</h3>";
 echo "x = " . $x . "<br>";
 echo "y = " . $y . "<br>";
 echo $txt2 . $Total . "<br>";
-echo "x + y";
+echo "x + y" . "<br>";
 ?> 
 
+<?php
+
+echo "<h3> Loop and Function Test </h3>";
+
+// Functions and Loops
+function addTillTen(){
+	$i = 0;
+	while ($i < 10){
+		++$i;
+		echo $i . " Loop" . "<br>";
+	}	
+}
+addTillTen();
+?> 
 
 
 </body>
