@@ -105,7 +105,7 @@ font-size: 15px;
 
 <p id="ans"></p>
 
-<p><a href="index.html">Back to Home</a></p>
+<p><a href="index.php">Back to Home</a></p>
 
 <script>
 

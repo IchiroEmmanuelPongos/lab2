@@ -90,9 +90,9 @@ background-color: green;
 
   <li class= "inactive" id="lll"><a onclick="homepage()">Goals</a></li>
   <li class="active" id="lll"><a href="#about">About Me</a></li>
-  <li class="inactive" id="lll"><a href="resource.html">Resources</a></li>
-  <li class="inactive" id="lll"><a href="Act1.html">Script1Act</a></li>
-  <li class="inactive" id="lll"><a href="Act2.html">Script2Act</a></li>
+  <li class="inactive" id="lll"><a href="resource.php">Resources</a></li>
+  <li class="inactive" id="lll"><a href="Act1.php">Script1Act</a></li>
+  <li class="inactive" id="lll"><a href="Act2.php">Script2Act</a></li>
 </ul>
 
 <div>
