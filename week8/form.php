@@ -102,9 +102,9 @@ echo $gender;
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "myDB";
+$username = "webprogmi221";
+$password = "g_6bCitLu.ljMK*m";
+$dbname = "webprogmi221";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -113,7 +113,7 @@ if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
 
-$sql = "INSERT INTO MyGuests (name, email, website, comment, gender)
+$sql = "INSERT INTO ipongos_myguests (name, email, website, comment, gender)
 VALUES ('$name', '$email', '$website', '$comment', '$gender')";
 
 if ($conn->query($sql) === TRUE) {
